@@ -4,47 +4,116 @@
     text-align: center;
   }
   
+#plus {
+  color: blanchedalmond;
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 2px solid mediumvioletred
+}
+
+#fakt {
+  color: blanchedalmond;
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 2px solid mediumvioletred
+}
+
+#minus {
+  color: blanchedalmond;
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 2px solid mediumvioletred
+}
+
+.dom {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 100px;
+  color: rgb(121, 131, 143);
+}
+
+.halli {
+  text-align: center;
+}
+
+.hallo {
+  text-align: center;
+}
+
 body {
   background-color: black;
+  margin-left: 75px;
+  margin-right: 120px;
 }
 
   .hallo {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(25, 25, 25);
   }
 
   .content {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(25, 25, 25);
   }
   
   p {
-    color: white;
+    color: rgb(193, 193, 193);
+    font-size: 20px;
   }
 
   h2 {
     color: white;
     font-size: 25px;
     margin-left: 50px;
-    border: azure;
     border-bottom: 2px solid mediumvioletred
   }
 
 .news article h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 .news article li {
-    color: rgb(126, 216, 234);
+    color: rgb(208, 195, 154);
+    font-size: 20px;
+    
 }
 
 .opi article h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 .opi article li {
-    color: rgb(234, 126, 221);
+    color: rgb(208, 195, 154);
+    font-size: 20px;
     font-weight: bold
 }
 
-.drugoe article h3 {
-    color:bisque
+li {
+  color: rgb(176, 164, 137);
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+b {
+  color: rgb(204, 154, 97);
+}
+
+strong {
+  color: blanchedalmond;
+}
+
+.eda
+{
+  text-align: center;
+  border-bottom: 2px solid mediumvioletred;
+  padding-top: 4px;
+  border-top: 2px solid mediumvioletred;
+}
+
+.pitanie {
+  color: blanchedalmond;
+  font-size: 35px;
+  margin-left: 150px;
 }
