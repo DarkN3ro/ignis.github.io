@@ -4,26 +4,7 @@
     text-align: center;
   }
   
-#plus {
-  color: blanchedalmond;
-  font-size: 35px;
-  text-align: center;
-  border-bottom: 2px solid mediumvioletred
-}
 
-#fakt {
-  color: blanchedalmond;
-  font-size: 35px;
-  text-align: center;
-  border-bottom: 2px solid mediumvioletred
-}
-
-#minus {
-  color: blanchedalmond;
-  font-size: 35px;
-  text-align: center;
-  border-bottom: 2px solid mediumvioletred
-}
 
 .dom {
   text-align: center;
@@ -46,20 +27,20 @@ body {
   margin-right: 120px;
 }
 
-  .hallo {
+.hallo {
     background-color: rgb(25, 25, 25);
   }
 
-  .content {
+.content {
     background-color: rgb(25, 25, 25);
   }
   
-  p {
+p {
     color: rgb(193, 193, 193);
     font-size: 20px;
   }
 
-  h2 {
+h2 {
     color: white;
     font-size: 25px;
     margin-left: 50px;
@@ -117,3 +98,9 @@ strong {
   font-size: 35px;
   margin-left: 150px;
 }
+
+img {
+  border-radius:  10px;
+}
+
+

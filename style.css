@@ -1,0 +1,89 @@
+img {
+    border-radius:  10px;
+  }
+
+#plus {
+    color: blanchedalmond;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid mediumvioletred
+  }
+  
+#fakt {
+    color: blanchedalmond;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid mediumvioletred
+  }
+  
+#minus {
+    color: blanchedalmond;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid mediumvioletred
+  }
+
+body {
+    background-color: black;
+    margin-left: 75px;
+    margin-right: 120px;
+  }
+
+  .hallo {
+    background-color: rgb(25, 25, 25);
+  }
+
+  li {
+    color: rgb(176, 164, 137);
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+  }
+
+.wolwe img {
+    height: 200px;
+    width: 200px;
+    border-radius:  50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+p {
+    color: #81856e;
+    font-size: 20px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+h4 {
+    margin: 6px 0;
+    font-size: 25px;
+    color: rgb(170, 170, 170);
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1e1e1e;
+    margin: 0;
+  }
+
+  div {
+    width: 300px;
+    height: 400px;
+    padding: 16px;
+    border: 1px solid #855677;
+    background-color: #4b3552;
+    text-align: center;
+    margin: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
