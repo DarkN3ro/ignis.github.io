@@ -8,7 +8,22 @@
   text-align: center;
   margin-left: 50px;
   margin-right: 100px;
-  color: rgb(121, 131, 143);
+  color: rgb(132, 73, 125);
+}
+
+.dom h1 {
+  font-variant: small-caps;
+  font-size: 30px;
+  line-height: 2;
+}
+
+.dom p {
+  color: rgb(150, 152, 126);
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: justify;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .halli {
@@ -16,7 +31,22 @@
 }
 
 .hallo {
+  background-color: rgb(25, 25, 25);
+}
+
+.hallo li {
+  text-align: left;
+  list-style-type: none;
+}
+
+video {
+  max-width: 55%;
+  height: auto;
+  display: block;
   text-align: center;
+  border: 3px solid rgb(233, 156, 108);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -25,9 +55,25 @@ body {
   margin-right: 120px;
 }
 
-.hallo {
-    background-color: rgb(25, 25, 25);
-  }
+a {
+  color: antiquewhite 
+}
+
+.span-style {
+  padding: 10px;
+  
+  color: #dcdfab;
+  background: rgb(61, 0, 55);
+  border-radius: 30px;
+  border: 1px dashed rgb(184, 109, 170);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.inline-block {
+  display: inline-block;
+} 
 
 .content {
     background-color: rgb(25, 25, 25);
@@ -36,6 +82,8 @@ body {
 p {
     color: rgb(193, 193, 193);
     font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
   }
 
 h2 {
@@ -52,7 +100,8 @@ h2 {
 
 .news article li {
     color: rgb(208, 195, 154);
-    font-size: 20px;
+    font: italic small-caps bold 20px/30px "Times New Roman", sans-serif;
+    list-style-type: square;
     
 }
 
@@ -72,7 +121,7 @@ li {
   text-align: left;
   padding-left: 30px;
   padding-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 b {
@@ -98,7 +147,17 @@ strong {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
   border-radius:  10px;
+  border: 2px solid rgb(153, 51, 138);
+}
+
+.sara {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 22px;
 }
 
 

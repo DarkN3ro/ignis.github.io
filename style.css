@@ -1,7 +1,24 @@
+.box {
+  width: 1000px;
+  border: 2px solid #a571a9;
+  border-radius:  40px;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  background-color: #332538;
+}
+
 img {
-    border-radius:  30px;
-    margin-top: 30px;
-  }
+  border-radius:  30px;
+  border: 2px solid #a571a9;
+  border-style: dashed;
+  border-width: 5px;
+  margin: 0 auto;
+}
+
+a {
+  color:inherit
+}
 
 #plus {
     color: blanchedalmond;
@@ -24,8 +41,55 @@ img {
     border-bottom: 2px solid mediumvioletred
   }
 
+#table {
+  color: blanchedalmond;
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 2px solid mediumvioletred
+  }
+
+caption {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  caption-side: top;
+  color: #8e2c9f;
+}
+
+  table, 
+  td {
+    color:rgb(135, 135, 135);
+    font-size: 15px;
+    border: 1px solid rgb(98, 98, 98);
+    border-collapse: collapse;
+    background-color: #211823;
+  }
+
+  td {
+    padding: 10px; 
+    height: 50px;
+  }
+
+  th {
+    border-bottom: 2px solid rgb(98, 98, 98);
+  }
+
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .vertical-top {
+    vertical-align: top;
+    color:rgb(255, 0, 183);
+    font-weight: bold;
+  }
+
 body {
-    text-align: center;
     background-color: black;
     margin-left: 75px;
     margin-right: 120px;
@@ -37,23 +101,35 @@ body {
 
   li {
     color: rgb(176, 164, 137);
-    text-align: left;
+    text-align: justify;
     padding-left: 30px;
     padding-bottom: 10px;
     margin-left: 20px;
+    font-size: 18px;
+    line-height: 1.5;
   }
 
 .wolwe img {
     height: 200px;
     width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius:  50%;
     margin-left: auto;
     margin-right: auto;
   }
 
+.wolwe p {
+    color: #c59bc7;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
 p {
     color: #81856e;
     font-size: 15px;
+    line-height: 1.5;
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -71,6 +147,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 20px;
     background-color: #1e1e1e;
     margin: 0;
   }
@@ -78,13 +155,12 @@ main {
   div {
     width: 300px;
     height: 400px;
-    padding: 16px;
-    border: 1px solid #855677;
+    border: 2px solid #855677;
     background-color: #4b3552;
     border-radius: 25px;
     text-align: center;
-    margin: 16px;
-    box-sizing: border-box;
+    margin: 30px;
+    box-sizing: content-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
