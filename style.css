@@ -1,0 +1,135 @@
+:root {
+    --background-active: linear-gradient( 90deg,rgb(177, 177, 177) 5%, #c850c0 20%, #ffcc70 50%, #c850c0 80%, rgb(177, 177, 177) 95%);;
+    --background-disable: rgb(177, 177, 177);
+}
+
+@font-face {
+    font-family: "TATypefire";
+    src: url(./TATypefire-Bold.otf);
+}
+
+@font-face {
+    font-family: "Vivaldi";
+    src: url(./vivaldi-script.otf)
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    color: #303846;
+    background: #000000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2; 
+}
+
+.fixed-header {
+    width: 100vw;
+    margin: 0;
+    padding: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.fixed-main {
+    width: 100vw;
+    margin: 0;
+    padding: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.logo__column-4 {
+    width: 100%;
+    margin: 0 auto;
+    column-count: 4;
+    column-gap: 0;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "TATypefire";
+    text-align: center;
+    box-sizing: content-box;
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+a {
+    color: #000000;
+}
+
+.relativ {
+    position: relative;
+    top: -10px;
+    left: 0;
+    transition: 0.7s;
+    border-bottom: 4px solid #6e136e;
+    break-inside: avoid;
+}
+
+.relativ:hover {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #ffcc70;
+    break-inside: avoid;
+}
+
+.logo__main {
+    background-color:  var(--background-disable);
+}
+
+.logo__main:hover {
+    background: var(--background-active);
+}
+
+.logo__info {
+    background-color: var(--background-disable);
+}
+
+.logo__info:hover {
+    background: var(--background-active);
+}
+
+.logo__actual {
+    background-color:  var(--background-disable);
+}
+
+.logo__actual:hover {
+    background: var(--background-active);
+}
+
+.logo__calendar {
+    background-color:  var(--background-disable);
+}
+
+.logo__calendar:hover {
+    background: var(--background-active);
+}
+
+.main-theme {
+    width: 800px;
+    padding: 70px;
+    margin: 0 auto;
+    background-color:  #1e1e1e;
+}
