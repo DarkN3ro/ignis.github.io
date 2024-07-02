@@ -8,11 +8,6 @@
     src: url(./TATypefire-Bold.otf);
 }
 
-@font-face {
-    font-family: "Vivaldi";
-    src: url(./vivaldi-script.otf)
-}
-
 body {
     background-color: black;
     margin: 0;
@@ -128,88 +123,154 @@ a {
 }
 
 .main-theme {
-    width: 800px;
-    padding: 70px;
+    width: 1400px;
+    padding: 20px 70px 70px;
     margin: 0 auto;
-    background-color:  #1e1e1e;
 }
 
-.full {
-    column-span: all;
+.about__food {
+    padding-bottom: 15px;
+    background: #202020;
+}
+
+.one {
+    padding-top: 50px;
+}
+
+.two {
+    padding-top: 10px;
+}
+
+.main_graphic {
+    color: #ade298;
+    font-size: 40px;
     font-family: "TATypefire";
-    color: #9b7798;
 }
 
-.full_h {
-    column-span: all;
-    font-family: "TATypefire";
-    font-weight: bold;
-    font-size: 50px;
-    color: #ccc;
-    margin: 20px 0;
+.m-center {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(131, 131, 131), black, rgb(131, 131, 131));
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
 }
 
-.column-2 {
-    column-count: 2;
-    column-gap: 30px;
-    column-rule: 3px solid rgb(48, 25, 51);
+.m-left {
+    margin-left: 80px;
 }
 
 p {
-    color: rgb(168, 168, 168);
-    font-size: 20px;
-    line-height: 1.5;
-    margin-top: 0;
-}
-
-.img-full {
-    border-radius: 20px;
-    width: 800px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 2px solid rgb(204, 203, 121);
-}
-
-.float_img {
-    float: right;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    height: 350px;
-    border: 2px solid palegoldenrod;
-    border-radius: 5px;
-}
-
-.img-what {
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 15px;
-    border: 2px solid #6a2d6d;
-}
-
-.viva_italic {
-    font-family: "Vivaldi";
-    font-size: 40px;
-    color: #c850c0;
-}
-
-.inline-block {
-    display: inline-block;
-  } 
-
-.span-style {
-    padding: 10px;
-    color: rgb(127, 255, 144);
-    background: rgb(61, 0, 55);
-    border-radius: 30px;
-    border: 1px dashed rgb(184, 109, 170);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 40px;
     color: #ccc;
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 30px 70px;
+    text-align: justify;
+}
+
+.p_center {
+    text-align: center;
+}
+
+.name {
+    color: #506650;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 15px 20px;
+    font-weight: bold;
+}
+
+.about {
+    color: rgb(206, 207, 207);
+    font-size: 0.8em;
+    line-height: 1.5;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.about::before {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ade298;
+    border-radius: 50%;
+    left: -15px;
+    content: "";
+}
+
+b {
+    color: #c850c0;
+    font-style: italic;
+}
+
+strong {
+    color: #dd92d7;
+}
+
+.tabs-calendar {
+    z-index: 1;
+    position: relative;
+    left: calc(50% / 2);
+    right: calc(50% / 2);
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50px;
+    bottom:50px;
+    width: 600px;
+    background: rgb(83, 43, 76);
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin-bottom: 100px;
+}
+
+.calendar-data {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.main_calendar {
+    font-size: 40px;
     font-family: "TATypefire";
-  }
+    color: #ade298;
+    text-align: center;
+    margin: 0;
+}
+
+th {
+    padding: 20px 20px;
+
+    color: #adf7bd;
+    font-size: 20px;
+    font-family: "TATypefire";
+
+    background: linear-gradient(rgb(22, 22, 22), rgb(24, 78, 51), rgb(83, 43, 76));
+}
+
+td {
+    padding: 20px 20px;
+
+    color: #cfcfcf;
+    font-size: 40px;
+    text-align: center;
+    font-family: "TATypefire";
+    background: rgb(83, 43, 76);
+    cursor: pointer;
+
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.day_x {
+    z-index: 1;
+    background: radial-gradient(#ade298 35%, rgb(83, 43, 76) 60%);
+    color: #000000;
+    border-radius: 50%;
+}
