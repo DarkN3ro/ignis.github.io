@@ -18,31 +18,20 @@ body {
     margin: 0;
     color: #303846;
     background: #000000;
-    position: relative;
-    display: flex;
-    align-items: center;
     font-size: 24px;
+    color: #ccc;
   }
 
-  .header {
+.header {
     display: flex;
     align-items: center;
     position: fixed;
     z-index: 2; 
+    justify-content: space-between;
 }
 
 .fixed-header {
-    width: 100vw;
-    margin: 0;
-    padding: 0px;
-    left: 0;
-    right: 0;
-    top: 0;
-    box-sizing: border-box;
-}
-
-.fixed-main {
-    width: 100vw;
+    width: 100%;
     margin: 0;
     padding: 0px;
     left: 0;
@@ -70,8 +59,13 @@ body {
     flex-direction: column;
 }
 
-.justify-content-between {
-    justify-content: space-between;
+.logo {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "TATypefire";
+    text-align: center;
+    box-sizing: content-box;
 }
 
 a {
@@ -128,8 +122,98 @@ a {
 }
 
 .main-theme {
-    width: 800px;
-    padding: 70px;
-    margin: 0 auto;
-    background-color:  #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
 }
+
+.background {
+    background: linear-gradient(90deg, rgb(243, 77, 0) 10%, rgb(223, 152, 0) 25%, rgb(255, 242, 129) 70%, rgb(255, 115, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clip-text {
+    color: #0000;
+    font-size: 50px;
+  
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.registration {
+    width: 450px;
+
+}
+
+.regist_position {
+    margin-top: 80px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.reg_border {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+}
+
+textarea {
+    margin-top: 20px;
+    resize: none;
+}
+
+label {
+    color:#6e6e6e;
+    line-height: 1.5;
+}
+
+.column-one {
+    margin: 50px;
+    width: 400px;
+}
+
+fieldset {
+    margin: 0 0 20px;
+    padding: 20px 15px;
+  
+    border: 1px solid #e4a863;
+  }
+
+.column-two {
+    margin: 0 0 20px;
+    padding: 20px 15px;
+}
+
+  .column-2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  button {
+    padding: 10px 30px;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 7px;
+
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(45deg, orange, yellow);
+    cursor: pointer;
+  }

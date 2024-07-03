@@ -8,13 +8,82 @@
 </head>
 <body>
     <header class="header fixed-header">
-        <div class="logo__column-4" class="justify-content-between">
+        <div class="logo__column-4">
             <div class="relativ"><a href="./index.html" class="logo logo__main logo_x">Главная</a></div>
             <div class="relativ"><a href="./info.html" class="logo logo__info">Содержание</a></div>
             <div class="relativ"><a href="./actual.html" class="logo logo__actual">Блог</a></div>
             <div class="relativ"><a href="./calendar.html" class="logo logo__calendar">Календарь</a></div>
         </div>
     </header>
-
+    <main>
+        
+        <section class="regist_position">
+            <form class="registration">
+                <fieldset class="reg_border">
+                    <legend>Данные о регистрации</legend>
+                       <label for="name" class="sr-only">Имя</label>
+                       <input id="name" type="text" placeholder="Имя">
+                       <label for="mail" class="sr-only">E-mail</label>
+                       <input id="name" type="text" placeholder="E-mail">
+                </fieldset>
+            </form>
+        </section>
+        <section class="main-theme">
+            <div class="background clip-text"> Добро пожаловать на страничку огненной Игнис!</div>
+        </section>
+        <section class="column-2">
+            <form class="column-one">
+                <fieldset>
+                    <legend>Какая морфа красивее?</legend>
+                      <label>
+                        <input type="radio" name="Morfa" value="Black Night"> Black Night
+                      </label>
+                      <br>
+                      <label>
+                        <input type="radio" name="Morfa" value="Blizzard"> Blizzard
+                      </label>
+                      <br>
+                      <label>
+                        <input type="radio" name="Morfa" value="Super Hypo Tangerine"> Super Hypo Tangerine
+                      </label>
+                      <br>
+                      <label>
+                        <input type="radio" name="Morfa" value="Mack Snow"> Mack Snow
+                      </label>
+                      <br>
+                      <label>
+                        <input type="radio" name="Morfa" value="Normal"> Normal
+                      </label>
+                      <br>
+                    <textarea cols="40px" rows="3px" placeholder="Другое"></textarea>
+                </fieldset>
+            </form>
+            <form>
+                <div class="column-two">
+                    <h2>Почему именно Эублефар?</h2>
+                    <label>
+                        <input type="checkbox" name="question" value="answer"> Не агрессивный
+                      </label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="question" value="answer"> Ходит в лоток в одно место
+                      </label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="question" value="answer"> Легко контактирует с людьми
+                      </label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="question" value="answer"> Мило улыбается
+                      </label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="question" value="answer"> Имеет мягенький и пухлый хвостик
+                      </label>
+                </div>
+                <button> Завести себе питомца! </button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
