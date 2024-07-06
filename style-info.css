@@ -22,21 +22,13 @@ body {
   }
 
 .header {
-    display: flex;
-    align-items: center;
+    width: 100%;
     position: fixed;
     z-index: 2; 
-    justify-content: space-between;
 }
 
-.fixed-header {
-    width: 100%;
-    margin: 0;
-    padding: 0px;
-    left: 0;
-    right: 0;
-    top: 0;
-    box-sizing: border-box;
+.main-wrapper {
+    padding: 0 30px;
 }
 
 .logo__column-4 {
@@ -48,7 +40,6 @@ body {
 
 .logo {
     display: flex;
-    flex-wrap: wrap;
     padding: 20px;
     text-decoration: none;
     font-size: 20px;
@@ -56,6 +47,10 @@ body {
     text-align: center;
     box-sizing: content-box;
     flex-direction: column;
+}
+
+.grow-1 {
+    flex-grow: 1;
 }
 
 a {
@@ -114,7 +109,7 @@ a {
 .main-theme {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    max-width: 800px;
     padding: 70px;
     margin: 0 auto;
     background-color:  #1e1e1e;
